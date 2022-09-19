@@ -1,0 +1,41 @@
+/* u can have multiple css fles btws, useful for large projects */
+/* ok cool so now, we can "select" the class and apply stylings*/
+p {
+    /* this selects every <p> tag and styles it */
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+
+  /* Position and center the image to scale nicely on all screens 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    */
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
