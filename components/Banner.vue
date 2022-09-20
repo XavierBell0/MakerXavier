@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img class="banner" src="../Media/sombrero_galaxy_small.jpg">
+        <img class="banner" src="~/assets/Media/sombrero_galaxy_small.jpg">
         <p class="centered"> spreng glupo </p>
     </div>
     
