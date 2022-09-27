@@ -6,10 +6,10 @@
         <p class="snippet" >
             {{ cardsSection.snippet }}
         </p>
-        <div class="grid grid-cols-1 justify-center lg:grid-cols-3 gap-4 mx-8">
-             <LargeCard 
+        <div class="grid grid-cols-2 justify-center lg:grid-cols-4 gap-4 mx-16">
+             <LargeCard
                 v-for="card in cardsSection.cards"
-                :key="card.image"
+                :key="card.id"
                 :card="card"
             />
         </div>
