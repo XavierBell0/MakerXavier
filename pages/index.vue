@@ -10,10 +10,11 @@
       <h4 class="header">
           {{ cardInfo[0].title }}
         </h4>
-        <p class="snippet">
+        <p class="snippet mt-1 mb-2">
           {{ cardInfo[0].snippet }}
         </p>
-      <div class="grid grid-cols-2 justify-center lg:grid-cols-4 gap-4 mx-12 lg:mx-30">
+        <hr>
+      <div class="grid grid-cols-1 justify-center lg:grid-cols-3 gap-4 sm:mx-12 md:mx-32 lg:mx-50 mt-6 mb-16">
         <LargeCard
           v-for="card in cardInfo[0].cards"
           :key="card.id"
@@ -23,16 +24,37 @@
         <h4 class="header">
           {{ cardInfo[1].title }}
         </h4>
-        <p class="snippet">
+        <p class="snippet mt-1 mb-2">
           {{ cardInfo[1].snippet }}
-      <div class="grid grid-cols-2 justify-center lg:grid-cols-5 gap-4 mx-12 lg:mx-30">
+        </p>
+        <hr>
+      <div class="grid grid-cols-1 justify-center lg:grid-cols-4 gap-4 mx-12 md:mx-32 lg:mx-50 mt-6 mb-16">
         <LargeCard
           v-for="card in cardInfo[1].cards"
           :key="card.id"
           :card="card"
         />
-      </div>
+        </div>
+        <!-- <h4 class="header">
+          {{ cardInfo[2].title }}
+        </h4>
+        <p class="snippet">
+          {{ cardInfo[2].snippet }}
+        </p>
+      <div class="grid grid-cols-2 justify-center lg:grid-cols-5 gap-4 mx-32 lg:mx-50">
+        <LargeCard
+          v-for="card in cardInfo[2].cards"
+          :key="card.id"
+          :card="card"
+        />
+      </div> -->
     </div>
+  <br>
+  <br>
+  <br>
+  <div>
+    <Footer />
+  </div>
   </div>
 </template>
 <script>
@@ -56,7 +78,6 @@ export default {
 .container {
   /* margin-top: 2rem; */
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -64,7 +85,7 @@ export default {
   font-size: 3rem;
 }
 .snippet {
-  color: grey;
-  margin-bottom: 1.5rem;
+  color: darkslategray;
+  font-size: 1.25rem;
 }
 </style>

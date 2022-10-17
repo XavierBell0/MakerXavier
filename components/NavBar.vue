@@ -16,7 +16,7 @@
         GALLERY
       </NuxtLink>
       |
-      <NuxtLink  to="/gallery" class="hover:underline p-2"> 
+      <NuxtLink  to="/resources" class="hover:underline p-2"> 
         RESOURCES
       </NuxtLink>
       |
