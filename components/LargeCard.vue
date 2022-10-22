@@ -1,14 +1,20 @@
 <template>
     <router-link :to="card.url">
-        <div class="card rounded">
+        <div class="card rounded-md">
                 <img class="block w-full max-h-80 object-cover object-center" :src="require(`@/assets/Media/.MainCards/${card.image || 'Amogus.jpg'}`)" alt="">
-                <h3 class="mx-3 mt-3 mb-1 font-medium text-base lg:text-lg">
-                    {{ card.title }}
-                </h3>
-                <span class="mx-1 inline-block h-4 w-4 rounded-full" :class="tag" v-for="tag in card.tags" v-bind:key="tag"></span>
-                <p class="mt-2 mb-5 mx-3 hidden font-normal text-sm md:text-base md:block">
-                    {{card.snippet }}
-                </p>
+                <div class="p-4">
+                    <span class="flex flex-auto justify-between flex-row">
+                        <h3 class="font-medium text-base lg:text-lg">
+                            {{ card.title }}
+                        </h3>
+                        <span>
+                            <span class="mx-1 inline-block h-4 w-4 rounded-full" :class="tag" v-for="tag in card.tags" v-bind:key="tag"></span>
+                        </span>
+                    </span>
+                    <p class="mt-2 mb-1 hidden font-normal text-sm md:text-base md:block">
+                        {{card.snippet }}
+                    </p>
+                </div>
         </div>
     </router-link>
 </template>
@@ -34,19 +40,25 @@
     .snippet {
         color: grey
     }
+    .art {
+    background-color: #457B9D;
+    }
     .school {
-    background-color: rgb(46, 31, 147);
+    background-color: #264653;
     }
     .team {
-    background-color: rgb(31, 147, 58);
+    background-color: #2A9DAF;
     }
     .electronics {
-    background-color: rgb(219, 170, 9);
-    }
-    .print {
-    background-color: rgb(9, 219, 198);
+    background-color: #E9C46A;
     }
     .CAD {
-    background-color: rgb(219, 9, 72);
+    background-color: #F4A261;
+    }
+    .research {
+    background-color: #E76F51;
+    }
+    .woodworking {
+    background-color: #AE2012;
     }
 </style>

@@ -1,7 +1,8 @@
 <template>
     <div>
-        <img class="" src="~/assets/Media/sombrero_galaxy_small2.jpg">
+        <img class=" block w-full height object-cover object-center" src="~/assets/Media/BalcViewRegTitle1.jpg">
     </div>
+    
     
 </template>
     
@@ -11,10 +12,7 @@
 </script>
     
 <style lang="css" scoped>
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.height {
+   	max-height: 28rem;
 }
 </style> 
