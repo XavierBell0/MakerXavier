@@ -8,16 +8,17 @@
       <NuxtLink  to="/aboutme" class="font-medium hover:underline">About Me</NuxtLink> page.
     </h1>
     <br>
-    <div class="text-center">
+    <div class="mx-12 md:mx-32 lg:mx-50">
       <h4 class="header underline">
           {{ cardInfo[0].title }}
         </h4>
-        <p class="snippet mt-1 mb-2">
+        <p class="snippet mt-1">
           {{ cardInfo[0].snippet }}
         </p>
+        <Legend />
         <hr>
-      <div class="grid grid-cols-1 justify-center lg:grid-cols-3 gap-4 mx-12 md:mx-32 lg:mx-50 mt-6 mb-16">
-        <LargeCard
+      <div class="flex justify-center flex-wrap gap-4 mt-6 mb-16">
+        <LargeCard class="max-w-xl"
           v-for="card in cardInfo[0].cards"
           :key="card.id"
           :card="card"
@@ -26,9 +27,10 @@
         <h4 class="header underline">
           {{ cardInfo[1].title }}
         </h4>
-        <p class="snippet mt-1 mb-2">
+        <p class="snippet mt-1">
           {{ cardInfo[1].snippet }}
         </p>
+        <Legend />
         <hr>
       <div class="grid grid-cols-1 justify-center lg:grid-cols-4 gap-4 mx-12 md:mx-32 lg:mx-50 mt-6 mb-16">
         <LargeCard
@@ -37,19 +39,6 @@
           :card="card"
         />
         </div>
-        <!-- <h4 class="header">
-          {{ cardInfo[2].title }}
-        </h4>
-        <p class="snippet">
-          {{ cardInfo[2].snippet }}
-        </p>
-      <div class="grid grid-cols-2 justify-center lg:grid-cols-5 gap-4 mx-32 lg:mx-50">
-        <LargeCard
-          v-for="card in cardInfo[2].cards"
-          :key="card.id"
-          :card="card"
-        />
-      </div> -->
     </div>
   <br>
   <br>
@@ -86,7 +75,7 @@ export default {
   font-size: 3rem;
 }
 .snippet {
-  color: darkslategray;
+  color: rgb(100 116 139);
   font-size: 1.25rem;
 }
 </style>

@@ -11,7 +11,7 @@
                             <span class="mx-1 inline-block h-4 w-4 rounded-full" :class="tag" v-for="tag in card.tags" v-bind:key="tag"></span>
                         </span>
                     </span>
-                    <p class="mt-2 mb-1 hidden font-normal text-sm md:text-base md:block">
+                    <p class="mt-2 mb-1 hidden font-normal text-sm md:text-base md:block text-gray-700">
                         {{card.snippet }}
                     </p>
                 </div>
@@ -43,7 +43,7 @@
     .art {
     background-color: #457B9D;
     }
-    .school {
+    .code {
     background-color: #264653;
     }
     .team {

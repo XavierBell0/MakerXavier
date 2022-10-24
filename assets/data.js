@@ -8,16 +8,16 @@ export const cardSections = [
           id: 12,
           title: "Blimp with Efficient Autonomous Navigation",
           url: "",
-          tags: ["research", "electronics", "CAD"],
+          tags: ["code", "research", "electronics", "CAD"],
           snippet: `Made while working for MIT LEAN lab over summer 2022. Its a low power autonomous blimp as a 
-          platform to test motion planning algorithms. Designed custom PCB. DETAILED DOCS on my Github`,
+          platform to test motion planning algorithms. Designed custom PCB. CHECK Github`,
           image: "BEANFront.jpg"
         },
         {
           id: 11,
           title: "MagBall",
           url: "MagBall",
-          tags: ["school", "team", "electronics", "CAD"],
+          tags: ["team", "electronics", "CAD"],
           snippet: `Final project for MIT 2.00b team Stegosaurus. Air hockey like game with magnetic walls, paddles, and puck.
            I lead hardware design, manufacturing by 3D printing and lasercutting, and final assembly`,
           image: "MagBallPro.jpeg"
@@ -34,7 +34,7 @@ export const cardSections = [
           id: 16,
           title: "RACER",
           url: "",
-          tags: ["school", "team", "electronics"],
+          tags: ["code", "team", "electronics"],
           snippet: `MIT class to build computer vision and motion planning/control software for given hardware. Used camera to detect
           and follow a line in final race`,
           image: "RACER.jpg"
@@ -68,8 +68,8 @@ export const cardSections = [
             id: 32,
             title: "Music Production",
             url: "",
-            tags: ["art"],
-            snippet: `Did various sorts of music production for 10 years. Used Logic Pro, Cakewalk, Fl Studio to make
+            tags: ["code", "art"],
+            snippet: `Did various sorts of music production for 10 years. Used Logic Pro, Cakewalk, Fl Studio, and MAX to make
             original songs and covers`,
             image: "FlStudio.png"
           },
@@ -77,7 +77,7 @@ export const cardSections = [
             id: 25,
             title: "Liquid Propulsion",
             url: "",
-            tags: ["school", "team", "research"],
+            tags: ["team", "research"],
             snippet: `Subteam of MIT Rocket Team. Worked on a test stand for LOX and ethanol engine. Machined custom fittings, ran leak 
             and pressure tests`,
             image: "coldflow.jpg"
@@ -96,7 +96,7 @@ export const cardSections = [
             title: "Spinning Ball",
             url: "",
             tags: ["woodworking", "electronics", "CAD", "art"],
-            snippet: "Gift made for my friend who was a graduating player on the MIT basketball team",
+            snippet: "Gift made for my friend who was a graduating player on the MIT basketball team. Ball spins to show signatures",
             image: "BrendtBall.png"
           },
           {
@@ -109,10 +109,11 @@ export const cardSections = [
           },
           {
             id: 22,
-            title: "Revolving Bottles",
+            title: "Bottle Lamp",
             url: "/LEAN-Blimp",
             tags: ["woodworking", "electronics", "CAD", "art"],
-            snippet: "Gift made a family friend after a they collected these bottles during a vacation",
+            snippet: `Gift made for a family friend. Bottles rest on gears to
+            revolve around center and spin independently`,
             image: "RotateBottle.png"
           },
           {
@@ -161,7 +162,7 @@ export const cardSections = [
             id: 31,
             title: "Lathe Pawn",
             url: "",
-            tags: ["CAD", "school"],
+            tags: ["CAD", "code"],
             snippet: `Made a pawn to learn how to use a lathe`,
             image: "Pawn.jpg"
           },
