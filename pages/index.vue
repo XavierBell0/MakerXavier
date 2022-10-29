@@ -12,12 +12,14 @@
       <h4 class="header underline">
           {{ cardInfo[0].title }}
         </h4>
+        <span class=" flex-wrap justify-between hidden md:flex">
         <p class="snippet mt-1">
           {{ cardInfo[0].snippet }}
         </p>
         <Legend />
+        </span>
         <hr>
-      <div class="flex justify-center flex-wrap gap-4 mt-6 mb-16">
+      <div class="grid grid-cols-1 justify-center lg:grid-cols-3 gap-4 mt-6 mb-16">
         <LargeCard class="max-w-xl"
           v-for="card in cardInfo[0].cards"
           :key="card.id"
@@ -27,12 +29,14 @@
         <h4 class="header underline">
           {{ cardInfo[1].title }}
         </h4>
+        <span class="flex-wrap justify-between hidden md:flex">
         <p class="snippet mt-1">
           {{ cardInfo[1].snippet }}
         </p>
         <Legend />
+        </span>
         <hr>
-      <div class="grid grid-cols-1 justify-center lg:grid-cols-4 gap-4 mx-12 md:mx-32 lg:mx-50 mt-6 mb-16">
+      <div class="grid grid-cols-1 justify-center lg:grid-cols-4 gap-4 mt-6 mb-16">
         <LargeCard
           v-for="card in cardInfo[1].cards"
           :key="card.id"

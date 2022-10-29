@@ -1,6 +1,6 @@
 <template>
     <div>
-        <span class="p-2 flex flex-auto mx-10 lg:mx-40 md:mx-19 justify-center">
+        <span class="p-2">
             <span class="inline-block">
                 <span class="art dot"></span> <span> Art/Creative </span>
                 <span class="code dot"></span> <span> Code </span>

@@ -23,6 +23,14 @@ export const cardSections = [
           image: "MagBallPro.jpeg"
         },
         {
+          id: 14,
+          title: "maker|XAVIER",
+          url: "",
+          tags: ["Code", "art"],
+          snippet: `Made the website you are looking at right now. This is my first and only website. Learned HTML, CSS, Nuxt, Vue, and Tailwind.`,
+          image: "WebsiteFront.jpg"
+        },
+        {
           id: 13,
           title: "VIP Lounge",
           url: "",

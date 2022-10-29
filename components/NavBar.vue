@@ -12,10 +12,6 @@
     </div>
     <div class="items-center">
       |
-      <NuxtLink  to="/gallery" class="hover:underline p-2"> 
-        GALLERY
-      </NuxtLink>
-      |
       <NuxtLink  to="/resources" class="hover:underline p-2"> 
         RESOURCES
       </NuxtLink>

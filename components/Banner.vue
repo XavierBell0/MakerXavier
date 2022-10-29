@@ -1,6 +1,7 @@
 <template>
     <div>
-        <img class=" block w-full height object-cover object-center" src="~/assets/Media/BalcViewRegTitle1.jpg">
+        <img class=" block w-full height object-cover object-center" src="~/assets/Media/BalcViewRegTitle.jpg">
+        <!-- font=copperplate gothic light -->
     </div>
     
     
