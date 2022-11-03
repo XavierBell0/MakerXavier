@@ -7,9 +7,8 @@
     <h1 class="p-2 text-center"> Here is a collection of most of the projects I have worked on or made over the years. Find more about me at the
       <NuxtLink  to="/aboutme" class="font-medium hover:underline">About Me</NuxtLink> page.
     </h1>
-    <br>
     <div class="mx-12 md:mx-32 lg:mx-50">
-      <h4 class="header underline">
+      <h4 class="header">
           {{ cardInfo[0].title }}
         </h4>
         <span class=" flex-wrap justify-between hidden md:flex">
@@ -26,7 +25,7 @@
           :card="card"
         />
       </div>
-        <h4 class="header underline">
+        <h4 class="header">
           {{ cardInfo[1].title }}
         </h4>
         <span class="flex-wrap justify-between hidden md:flex">

@@ -1,12 +1,12 @@
 <template>  
-  <nav class="flex items-center justify-between flex-wrap border-black bg-gray-100 p-3 sticky top-0 z-50 border-2">
+  <nav class="nav flex items-center justify-between flex-wrap border-black p-3 sticky top-0 z-50 border-2">
     <div class="flex items-center flex-shrink-0 mr-6">
       <NuxtLink  class="mr-3 font-semibold hover:underline" to="/">
         <span class="hidden md:inline-flex">
-          XAVIER BELL |
+          XAVIER BELL  -
         </span>
         <span class="inline-flex">
-          MAKERXAVIER
+          maker|XAVIER
         </span>
       </NuxtLink>
     </div>
@@ -29,3 +29,10 @@ export default {
   name: "Navbar",
 };
 </script>
+
+<style scoped>
+  .nav{
+    background-color: rgb(224 242 254);
+  }
+
+</style>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img class=" block w-full height object-cover object-center" src="~/assets/Media/BalcViewRegTitle.jpg">
+        <img class=" block w-full height object-cover object-center" src="~/assets/Media/NightBalc1.jpg">
         <!-- font=copperplate gothic light -->
     </div>
     
@@ -11,7 +11,6 @@
     export default {
     }
 </script>
-    
 <style lang="css" scoped>
 .height {
    	max-height: 28rem;

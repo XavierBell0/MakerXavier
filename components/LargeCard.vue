@@ -1,22 +1,20 @@
 <template>
-    <router-link :to="card.url">
-        <div class="card rounded-md">
-                <img class="block w-full max-h-80 object-cover object-center" :src="require(`@/assets/Media/.MainCards/${card.image || 'Amogus.jpg'}`)" alt="">
-                <div class="p-4">
-                    <span class="flex flex-auto justify-between flex-row">
-                        <h3 class="font-medium text-base lg:text-lg">
-                            {{ card.title }}
-                        </h3>
-                        <span>
-                            <span class="mx-1 inline-block h-4 w-4 rounded-full" :class="tag" v-for="tag in card.tags" v-bind:key="tag"></span>
-                        </span>
+    <div class="card rounded-md shadow-lg">
+            <img class="block w-full max-h-80 object-cover object-center" :src="require(`@/assets/Media/.MainCards/${card.image || 'Amogus.jpg'}`)" alt="">
+            <div class="p-4">
+                <span class="flex flex-auto justify-between flex-row">
+                    <h3 class="font-medium text-base lg:text-lg">
+                        {{ card.title }}
+                    </h3>
+                    <span>
+                        <span class="mx-1 inline-block h-4 w-4 rounded-full" :class="tag" v-for="tag in card.tags" v-bind:key="tag"></span>
                     </span>
-                    <p class="mt-2 mb-1 hidden font-normal text-sm md:text-base md:block text-gray-700">
-                        {{card.snippet }}
-                    </p>
-                </div>
-        </div>
-    </router-link>
+                </span>
+                <p class="mt-2 mb-1 hidden font-normal text-sm md:text-base md:block text-gray-700">
+                    {{card.snippet }}
+                </p>
+            </div>
+    </div>
 </template>
 
 <script>
@@ -27,10 +25,9 @@
 
 <style scoped>
     .card {
-        border: 1px solid black;
+        border: 1px dashed slategray;
         background: rgb(243 244 246);
         overflow: hidden;
-        box-shadow: 2rem;
         text-align: center;
         /* font-family: Arial, Helvetica, sans-serif; */
     }

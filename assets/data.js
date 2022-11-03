@@ -9,8 +9,8 @@ export const cardSections = [
           title: "Blimp with Efficient Autonomous Navigation",
           url: "",
           tags: ["code", "research", "electronics", "CAD"],
-          snippet: `Made while working for MIT LEAN lab over summer 2022. Its a low power autonomous blimp as a 
-          platform to test motion planning algorithms. Designed custom PCB. CHECK Github`,
+          snippet: `Made at MIT LEAN lab over summer 2022. A low power autonomous blimp as a 
+          platform to test motion planning algorithms. Designed custom PCB. My Github shows way more!!`,
           image: "BEANFront.jpg"
         },
         {
@@ -26,15 +26,15 @@ export const cardSections = [
           id: 14,
           title: "maker|XAVIER",
           url: "",
-          tags: ["Code", "art"],
+          tags: ["code", "art"],
           snippet: `Made the website you are looking at right now. This is my first and only website. Learned HTML, CSS, Nuxt, Vue, and Tailwind.`,
-          image: "WebsiteFront.jpg"
+          image: "WebsiteFront.png"
         },
         {
           id: 13,
           title: "VIP Lounge",
           url: "",
-          tags: ["team", "CAD", "woodworking", "art"],
+          tags: ["art", "team", "CAD", "woodworking"],
           snippet: 'Redid an unused room. Painted, made two benches, two laser engraved tables, and a illuminated silhouette of the house',
           image: "VIPBench.jpg"
         },
@@ -170,7 +170,7 @@ export const cardSections = [
             id: 31,
             title: "Lathe Pawn",
             url: "",
-            tags: ["CAD", "code"],
+            tags: ["CAD"],
             snippet: `Made a pawn to learn how to use a lathe`,
             image: "Pawn.jpg"
           },
