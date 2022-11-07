@@ -61,7 +61,7 @@
                 <li>Don't use 3D printer for a job done better by a laser cutter or woodworking tools</li>
                 <li>Don't lean too hard on CAD</li>
                 <li>Make sure your 3D print orientation is least time/least support</li>
-                <li>The issue is always that be bed isn't level</li>
+                <li>The issue is always that the bed isn't level</li>
                 <li>Use the right tool</li>
                 <li>Take pride in your creations</li>
 
