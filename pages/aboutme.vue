@@ -1,7 +1,9 @@
 <template>
     <div class="flex flex-col h-screen">
-        <div>
+        <div class="md:block hidden">
             <BannerRes />
+        </div>
+        <div>
             <NavBar />
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 p-4 mx-8 md:mx-32 lg:mx-50 mt-8 mb-auto">
