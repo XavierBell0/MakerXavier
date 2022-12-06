@@ -51,7 +51,7 @@ export const cardSections = [
     },
     {
         id: 2,
-        title: "THE ARCHIVES",
+        title: "Past Projects",
         snippet: "These projects range from a few months to a few days of work",
         cards: [
           {
