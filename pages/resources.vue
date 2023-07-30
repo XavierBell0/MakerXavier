@@ -49,6 +49,13 @@
                         <a class="hover:underline text-blue-600" href="https://lithophanemaker.com/">Lithophane Maker</a>
                     </div>
                 </span>
+                <hr class="block sm:hidden">
+                <span class="grid grid-cols-4 md:flex md:flex-auto justify-between p-1">
+                    <p class="col-span-3">A general 3D printers Wiki including useful terminology and interesting applications</p>
+                    <div class="ml-2 col-span-1">
+                        <a class="hover:underline text-blue-600" href="https://www.uprinting.com/guide-to-3d-printing.html">UPrinting Guides</a>
+                    </div>
+                </span>
             </div>
             </div>
             
