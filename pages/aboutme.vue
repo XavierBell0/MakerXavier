@@ -7,7 +7,7 @@
             <NavBar />
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 p-4 mx-8 md:mx-32 lg:mx-50 mt-8 mb-auto">
-            <img class="p-2 mx:10 lg:col-span-1" src="~/assets/Media/MountainMe.jpg">
+            <img class="p-2 mx:10 lg:col-span-1" src="~/assets/Media/RobotOnHead.jpeg">
             <div class="mt-4 lg:col-span-2 md:mr-16">
                 <span class="flex flex-wrap sm:flex-auto justify-between">
                     <h1 class="text-5xl font-normal">
@@ -28,11 +28,14 @@
                 <br>
                 <hr>
                 <p class="mt-8">
-                Hello! I am currently a sophomore at MIT studying Aerospace Engineering and with a focus on Autonomous Machines	through MIT's NEET program.
+                Hello! I am currently a junior at MIT studying Mechanical Engineering and with a focus on Autonomous Machines through MIT's NEET program. I
+                am also a Gordan Engineering Leadership Scholar which is a leader development program that focuses on being an effective member or leader
+                of industry engineering teams.
                 My dream is to make space robots. I also like drones, additive manufacturing, autonomous control, and gesture controlled robotics. I have 
-                experience in many fields from the various projects I have completed. I want to keep creating cool projects, either because I find them aethetically
-                appealing or functionally so &#40;sometimes both&#41;. I have lived in Australia and Colorado. I like playing basketball, making music,
-                traveling, going on seriously long walks, hiking, and stargazing.
+                experience in many fields from the various projects I have completed. I want to keep creating cool projects, either because I find them aesthetically
+                appealing or functionally so &#40;sometimes both&#41;. When I'm not making robots or doing MIT work, I like playing basketball, making music,
+                traveling, anime, going on seriously long walks &#40;like across RI&#41;, hiking, and stargazing. I have lived in Australia and Colorado so 
+                talk to me about beaches or mountains and I'll say I've seen better.
                 </p>
             <br>
             <p>

@@ -1,71 +1,137 @@
 export const cardSections = [
     {
       id: 1,
-      title: "FEATURED",
-      snippet: "These are recent projects of which I am most proud. Crunch time type stuff",
+      title: "Featured",
+      snippet: "These are recent projects that I found particularly rewarding. Usually requires learning a new skill.",
       cards: [
-        {
-          id: 12,
-          title: "Blimp with Efficient Autonomous Navigation",
-          url: "",
-          tags: ["code", "research", "electronics", "CAD"],
-          snippet: `Made at MIT LEAN lab over summer 2022. A low power autonomous blimp as a 
-          platform to test motion planning algorithms. Designed custom PCB. My Github shows way more!!`,
-          image: "BEANFront.jpg"
-        },
-        {
-          id: 11,
-          title: "MagBall",
-          url: "MagBall",
-          tags: ["team", "electronics", "CAD"],
-          snippet: `Final project for MIT 2.00b team Stegosaurus. Air hockey like game with magnetic walls, paddles, and puck.
-           I lead hardware design, manufacturing by 3D printing and lasercutting, and final assembly`,
-          image: "MagBallPro.jpeg"
-        },
-        {
-          id: 14,
-          title: "maker|XAVIER",
-          url: "",
-          tags: ["code", "art"],
-          snippet: `Made the website you are looking at right now. This is my first and only website. Learned HTML, CSS, Nuxt, Vue, and Tailwind.`,
-          image: "WebsiteFront.png"
-        },
-        {
-          id: 13,
-          title: "VIP Lounge",
-          url: "",
-          tags: ["art", "team", "CAD", "woodworking"],
-          snippet: 'Redid an unused room. Painted, made two benches, two laser engraved tables, and a illuminated silhouette of the house',
-          image: "VIPBench.jpg"
-        },
-        {
-          id: 16,
-          title: "RACER",
-          url: "",
-          tags: ["code", "team", "electronics"],
-          snippet: `MIT class to build computer vision and motion planning/control software for given hardware. Used camera to detect
-          and follow a line in final race`,
-          image: "RACER.jpg"
-        },
-      ],
-    },
-    {
-        id: 2,
-        title: "Past Projects",
-        snippet: "These projects range from a few months to a few days of work",
-        cards: [
+          {
+            id: 11,
+            title: "PCB for Efficient Autonomous Blimp",
+            url: "",
+            tags: ["code", "research", "electronics", "CAD"],
+            snippet: `Telemetry and motor control shield for flight computer raspberry pi.
+            Increased efficiency and decreased complexity for multiple robotic platforms.
+            Self taught Altium and manufactured by JLCPCB. Made during my research work in the MIT LEAN lab.
+            Shown is implementation on minature robotic car equipped with motion capture reflectors.`,
+            image: "Shrimpy.jpg",
+            date: "May 2023"
+          },
+          {
+            id: 12,
+            title: "Autonomous Robot Design and Manufacturing",
+            url: "",
+            tags: ["code", "electronics", "CAD"],
+            snippet: `Three unique robots to complete tasks on MIT’s 2.S007’s autonomous
+            robotic competition gameboard. Developed suite of autonomous sequences that could be remotely
+            triggered. Sensing, positioning, and accurate driving performed with use of IMU, encoders,
+            line-following sensors, and multiple PID controllers. Used 3D printing, sheet metal fabrication and prebuilt parts to assemble each robot.`,
+            image: "RobotFleet.jpg",
+            date: ""
+          },
+          {
+            id: 12,
+            title: "Unified Engineering Flight Competition",
+            url: "",
+            tags: ["code", "team", "CAD"],
+            snippet: `Designed and manufactured plane with wire-cut foam polyhedral wings to maxiumum an objective
+            function of payload weight and turn rate. Considering design constraints, optimized objective function
+            using various MATLAB scripts and plot analysis. Determined size of wings and twist, payload mass and placement,
+            and stability margin. Placed 4th in competition.`,
+            image: "UEFC.jpg"
+          },
+          {
+            id: 12,
+            title: "Mock Wind Tunnel",
+            url: "",
+            tags: ["art", "electronics", "CAD"],
+            snippet: `Purely aesthetic wind tunnel featuring a model Cessna 172. Powered using a computer fan and 3D printed
+            nozzle to direct airflow. Housing made of arylic paneling slot joined maple plywood fitted with edge-banding.
+            Much trouble was had getting the airflow to properly spin the propeller and flap the streamer. The final fan
+            nozzle does an adequate job, but is not ideal.`,
+            image: "WindTunnel.jpg"
+          },
+          {
+            id: 14,
+            title: "maker|XAVIER",
+            url: "",
+            tags: ["code", "art"],
+            snippet: `Made the website you are looking at right now. This is my first and only website and was built
+            both as a place to showcase my work and as an excerise my coding ability and learn another skill.
+            I learned HTML, CSS, Nuxt, Vue, and Tailwind. I try to update every semester, but never do.`,
+            image: "WebsiteFront.png"
+          },
+        ],
+      },
+      {
+          id: 2,
+          title: "Past Projects",
+          snippet: "These projects range from a few days to a few months of work",
+          cards: [
+          {
+            id: 21,
+            title: "Efficient Blimp V2",
+            url: "",
+            tags: ["code", "research", "electronics", "CAD"],
+            snippet: `Successor to the autonomous shark blimp. Incorporates the PCB also listed here
+            for efficiency. Look at my GITHUB for docs!`,
+            image: "BEANV2.jpg"
+          },
+          {
+            id: 12,
+            title: "Efficent Blimp V1",
+            url: "",
+            tags: ["code", "research", "electronics", "CAD"],
+            snippet: `A low power autonomous blimp platform to test motion planning algorithms.
+            Attempts 1-1 actuation and computer power use. Check GITHUB`,
+            image: "BEANFront.jpg"
+          },
+          {
+            id: 12,
+            title: "Decanter Tray",
+            url: "",
+            tags: ["art", "CAD"],
+            snippet: `Simple decanter tray milled from scrap piece of red oak and laser engraved.
+            Present for a graduating friend who had a passion for nice whiskeys.`,
+            image: "DecanterTray.jpg"
+          },
+          {
+            id: 11,
+            title: "MagBall",
+            url: "MagBall",
+            tags: ["team", "electronics", "CAD"],
+            snippet: `Final project for MIT 2.00b team Stegosaurus. Air hockey like game with magnetic walls, paddles, and puck.
+              I lead hardware design, manufacturing by 3D printing and lasercutting, and final assembly`,
+            image: "MagBallPro.jpeg"
+          },
+          {
+            id: 13,
+            title: "VIP Lounge",
+            url: "",
+            tags: ["art", "team", "CAD", "woodworking"],
+            snippet: 'Redid an unused room. Painted, made two benches, two laser engraved tables, and a illuminated silhouette of the house',
+            image: "VIPBench.jpg"
+          },
+          {
+            id: 16,
+            title: "RACER",
+            url: "",
+            tags: ["code", "team", "electronics"],
+            snippet: `MIT class to build computer vision and motion planning/control software for given hardware. Used camera to detect
+            and follow a line in final race`,
+            image: "RACER.jpg"
+          },
           {
             id: 15,
-            title: "ULA Student Payload Competition 2021",
+            title: "ULA Soil Rover",
             url: "",
             tags: ["team", "electronics", "CAD"],
-            snippet: `Made a rover-hub system to deploy by parachute. Rover collected soil samples and returned to the hub for
+            snippet: `Parachute deployed rover-hub system to collect soil samples and return to the hub for
             rudimentary analysis`,
             image: "rover2021.png"
           },
           {
             id: 14,
-            title: "ULA Student Payload Competition 2019",
+            title: "ULA Folding Drone",
             url: "",
             tags: ["team", "electronics", "CAD"],
             snippet: `First multi-month long project and introduction to drones. Competed in ULA challenge to make a drone
@@ -80,6 +146,14 @@ export const cardSections = [
             snippet: `Did various sorts of music production for 10 years. Used Logic Pro, Cakewalk, Fl Studio, and MAX to make
             original songs and covers`,
             image: "FlStudio.png"
+          },
+          {
+            id: 23,
+            title: "Coffee Table",
+            url: "",
+            tags: ["woodworking"],
+            snippet: `Made for my room from scrap wood I found in the basement. Used biscuit joiner`,
+            image: "CoffeeTable.jpg"
           },
           {
             id: 25,
@@ -118,19 +192,11 @@ export const cardSections = [
           {
             id: 22,
             title: "Bottle Lamp",
-            url: "/LEAN-Blimp",
+            url: "",
             tags: ["woodworking", "electronics", "CAD", "art"],
             snippet: `Gift made for a family friend. Bottles rest on gears to
             revolve around center and spin independently`,
             image: "RotateBottle.png"
-          },
-          {
-            id: 23,
-            title: "Coffee Table",
-            url: "",
-            tags: ["woodworking"],
-            snippet: `Made for my room from scrap wood I found in the basement. Used biscuit joiner`,
-            image: "CoffeeTable.jpg"
           },
           {
             id: 24,

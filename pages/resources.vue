@@ -7,7 +7,7 @@
             <NavBar />
         </div>
         <br>
-        <div class="mx-2 md:mx-32 lg:mx-64 mb-auto">
+        <div class="mx-2 md:mx-40 lg:mx-72 mb-auto">
             <div class="p-3">
             <h1 class="text-3xl mb-2">
                 HELPFUL LINKS
@@ -68,9 +68,16 @@
             </p>
             <hr class="mb-2">
             <ol class="ml-8 md:ml-20 list-decimal">
+                <li>Everything takes at least twice as longs you expect</li>
+                <li>Take pride in your creations</li>
+                <li>Don't have pet ideas</li>
+                <li>Brainstorm for longer than you want</li>
+                <li>Gain perspective on your problem</li>
+                <li>Think of crazy ideas - some might have a useful realistic element</li>
+                <li>Abstract the concept of an idea during the brainstorming</li>
+                <li>Spend a lot of time in CAD before manufacturing final parts</li>
                 <li>The time it takes to make a template or jig is always worth it</li>
                 <li>3D print small test cases before screwing up the entire thing and having to reprint</li>
-                <li>Everything takes at least twice as long as you expect</li>
                 <li>Forum posts from over 10 years ago are your best friends</li>
                 <li>Often the simpliest solution is also the best</li>
                 <li>Start strong &#40;straight stock, square corners, clean install&#41; to finish strong</li>
@@ -79,9 +86,9 @@
                 <li>Don't use 3D printer for a job done better by a laser cutter or woodworking tools</li>
                 <li>Don't lean too hard on CAD</li>
                 <li>Make sure your 3D print orientation is least time/least support</li>
-                <li>The issue is always that the bed isn't level</li>
+                <li>The issue is always that the 3D printer bed isn't level</li>
                 <li>Use the right tool</li>
-                <li>Take pride in your creations</li>
+                <li>Carry a screw up all the way through - find what lessons you learn at the end of the process</li>
 
             </ol>
             </div>
