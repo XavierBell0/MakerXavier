@@ -28,10 +28,10 @@
                 <br>
                 <hr>
                 <p class="mt-8">
-                Hello! I am currently a junior at MIT studying Mechanical Engineering and with a focus on Autonomous Machines through MIT's NEET program. I
+                Hello! I am currently a senior at MIT studying Mechanical Engineering with a minor in Computer Science and with a focus on Autonomous Machines through MIT's NEET program. I
                 am also a Gordan Engineering Leadership Scholar which is a leader development program that focuses on being an effective member or leader
                 of industry engineering teams.
-                My dream is to make space robots. I also like drones, additive manufacturing, autonomous control, and gesture controlled robotics. I have 
+                My dream is to make space robots. I also like medical devices, drones, additive manufacturing, autonomous control, and gesture controlled robotics. I have 
                 experience in many fields from the various projects I have completed. I want to keep creating cool projects, either because I find them aesthetically
                 appealing or functionally so &#40;sometimes both&#41;. When I'm not making robots or doing MIT work, I like playing basketball, making music,
                 traveling, anime, going on seriously long walks &#40;like across RI&#41;, hiking, and stargazing. I have lived in Australia and Colorado so 

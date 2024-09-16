@@ -1,33 +1,33 @@
 <template>
-    <div class="card rounded-md shadow-lg">
-            <img class="block w-full max-h-72 object-cover object-center" :src="require(`@/assets/Media/.MainCards/${card.image || 'Amogus.jpg'}`)" alt="">
-            <div class="p-4">
-                <span class="flex flex-auto justify-between flex-row">
-                    <h3 class="font-medium text-base lg:text-lg">
-                        {{ card.title }}
-                    </h3>
-                    <span>
-                        <span class="group relative mx-1 inline-block h-4 w-4 rounded-full" :class="tag" v-for="tag in card.tags" v-bind:key="tag">
-                            <span
-                            class="pointer-events-none absolute -top-7 right-2 w-max rounded bg-gray-900 px-2 py-1 w-max text-sm
-                            font-medium text-gray-50 opacity-0 shadow transition-opacity group-hover:opacity-100"
-                            >
-                            {{tag}}
-                            </span>
-                        </span>
-                    </span>
+    <div :class="['card rounded-md shadow-lg', cardClass]">
+        <img class="block w-full max-h-72 object-cover object-center" :src="require(`@/assets/Media/.MainCards/${card.image || 'Amogus.jpg'}`)" alt="">
+        <div class="p-4">
+            <span class="flex flex-auto justify-center flex-row">
+                <h3 class="font-medium text-base lg:text-lg">
+                    {{ card.title }}
+                </h3>
+                <span>
+                    <!-- <span class="group relative mx-1 inline-block font-normal text-base lg:text-lg">
+                        {{ card.date }}
+                    </span> -->
                 </span>
-                <p class="mt-2 mb-1 hidden font-normal text-sm md:text-base md:block text-gray-700">
-                    {{card.snippet }}
-                </p>
-            </div>
+            </span>
+            <p class="mt-2 mb-1 hidden font-normal text-sm md:text-base md:block text-gray-700">
+                {{card.snippet }}
+            </p>
+        </div>
     </div>
 </template>
 
 <script>
-    export default {
-        props: ['card'],
+export default {
+    props: ['card'],
+    computed: {
+        cardClass() {
+            return this.card.importance === 2 ? 'lg:col-span-2' : '';
+        }
     }
+}
 </script>
 
 <style scoped>
@@ -64,5 +64,8 @@
     }
     .woodworking {
     background-color: #AE2012;
+    }
+    .col-span-2 {
+        grid-column: span 2;
     }
 </style>

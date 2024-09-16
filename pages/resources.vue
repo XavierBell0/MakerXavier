@@ -73,10 +73,11 @@
                 <li>Don't have pet ideas</li>
                 <li>Brainstorm for longer than you want</li>
                 <li>Gain perspective on your problem</li>
+                <li>Depth first search the first prototype, optimize later</li>
                 <li>Think of crazy ideas - some might have a useful realistic element</li>
                 <li>Abstract the concept of an idea during the brainstorming</li>
                 <li>Spend a lot of time in CAD before manufacturing final parts</li>
-                <li>The time it takes to make a template or jig is always worth it</li>
+                <li>The time it takes to make a template or jig is almost always worth it</li>
                 <li>3D print small test cases before screwing up the entire thing and having to reprint</li>
                 <li>Forum posts from over 10 years ago are your best friends</li>
                 <li>Often the simpliest solution is also the best</li>
@@ -85,10 +86,11 @@
                 <li>Never 3D print a box</li>
                 <li>Don't use 3D printer for a job done better by a laser cutter or woodworking tools</li>
                 <li>Don't lean too hard on CAD</li>
-                <li>Make sure your 3D print orientation is least time/least support</li>
                 <li>The issue is always that the 3D printer bed isn't level</li>
                 <li>Use the right tool</li>
                 <li>Carry a screw up all the way through - find what lessons you learn at the end of the process</li>
+                <li>Depth first search the first prototype, optimize later</li>
+                <li>Choose as few reference points for dimensioning as possible (tolerance stackup)</li>
 
             </ol>
             </div>

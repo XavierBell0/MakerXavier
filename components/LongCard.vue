@@ -1,6 +1,6 @@
 <template>
-    <div class="card rounded-md shadow-lg flex max-h-52">
-            <img class="inline-block max-w-xl max-h-52 xl:max-h-40 object-cover object-center" :src="require(`@/assets/Media/.MainCards/${card.image || 'Amogus.jpg'}`)" alt="">
+    <div class="card rounded-md shadow-lg flex max-h-64">
+            <img class="inline-block max-w-xl max-h-64 xl:max-h-52 object-cover object-center" :src="require(`@/assets/Media/.MainCards/${card.image || 'Amogus.jpg'}`)" alt="">
             <div class="p-4">
                <span class="flex flex-auto justify-between flex-row">
                     <h3 class="font-medium text-base lg:text-lg">
@@ -17,7 +17,7 @@
                         </span>
                     </span>
                 </span>
-                <p class="mt-2 mb-1 hidden font-normal text-sm md:text-base md:block text-gray-700">
+                <p class="p-5 mt-2 mb-1 hidden font-normal text-sm md:text-xl md:block text-gray-700">
                     {{card.snippet }}
                 </p>
             </div>
