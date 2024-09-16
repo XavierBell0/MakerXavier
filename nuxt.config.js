@@ -14,8 +14,29 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-SY69MBDJK2',
+        async: true
+      },
+      {
+        hid: 'gtag',
+        innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-SY69MBDJK2');
+        `,
+        type: 'text/javascript',
+        charset: 'utf-8'
+      }
+    ],
+    __dangerouslyDisableSanitizersByTagID: {
+      'gtag': ['innerHTML']
+    }
   },
+  
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   // css: [
