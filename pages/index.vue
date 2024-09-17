@@ -8,12 +8,9 @@
        &#40;that I can talk about&#41;. Find more about me at the
       <NuxtLink  to="/aboutme" class="font-medium hover:underline">About Me</NuxtLink> page.
     </h1>
-    <h1 class="p-1 text-center text-red-500 text-2xl md:hidden">
-      Your device size is affecting the layout of this page. To see all content please swap to a desktop
-    </h1>
     <!--Get the Featured card info--> 
     <div class="mx-12 md:mx-40 lg:mx-48 xl:mx-64">
-      <h4 class="header">
+      <h4 class="header text-center md:text-left">
           {{ cardInfo[0].title }}
         </h4>
         <span class="flex-wrap justify-between hidden md:flex">
@@ -31,7 +28,7 @@
         />
       </div>
         <!--Get the past projects card info--> 
-        <h4 class="header">
+        <h4 class="header text-center md:text-left">
           {{ cardInfo[1].title }}
         </h4>
         <span class="flex-wrap justify-between hidden md:flex">

@@ -5,6 +5,17 @@ export const cardSections = [
       snippet: "These are recent projects that I found particularly rewarding. Usually requires learning a new skill.",
       cards: [
           {
+            id: 12,
+            title: "FPV Glider",
+            url: "",
+            tags: ["code", "team", "CAD"],
+            snippet: `Long range FPV glider on the ZOHD Drift airframe. Equipped with R9 slim+,
+            Speedybee F405 Mini, GPS, VTX and camera. Capable of one hour flight and 1 mile range w/ video.
+            Can fly missions and return to home using iNav.`,
+            image: "FPVGlider.png",
+            date: "July 2024"
+          },
+          {
             id: 11,
             title: "Muon Wind Chime",
             url: "",
@@ -14,17 +25,6 @@ export const cardSections = [
             Synthesizer is written in PureData and runs on a spare Jetson Nano. Next iteration
             includes a light display and proper housing.`,
             image: "Muon.png",
-            date: "July 2024"
-          },
-          {
-            id: 12,
-            title: "FPV Glider",
-            url: "",
-            tags: ["code", "team", "CAD"],
-            snippet: `Long range FPV glider on the ZOHD Drift airframe. Equipped with R9 slim+,
-            Speedybee F405 Mini, GPS, VTX and camera. Capable of one hour flight and 1 mile range w/ video.
-            Can fly missions and return to home using iNav.`,
-            image: "FPVGlider.png",
             date: "July 2024"
           },
           {

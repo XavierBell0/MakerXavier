@@ -12,7 +12,7 @@
                     </span> -->
                 </span>
             </span>
-            <p class="mt-2 mb-1 hidden font-normal text-sm md:text-base md:block text-gray-700">
+            <p class="mt-2 mb-1 font-normal text-sm md:text-base md:block text-gray-700">
                 {{card.snippet }}
             </p>
         </div>
