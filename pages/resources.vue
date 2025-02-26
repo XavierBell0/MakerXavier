@@ -49,13 +49,6 @@
                         <a class="hover:underline text-blue-600" href="https://lithophanemaker.com/">Lithophane Maker</a>
                     </div>
                 </span>
-                <hr class="block sm:hidden">
-                <span class="grid grid-cols-4 md:flex md:flex-auto justify-between p-1">
-                    <p class="col-span-3">A general 3D printers Wiki including useful terminology and interesting applications</p>
-                    <div class="ml-2 col-span-1">
-                        <a class="hover:underline text-blue-600" href="https://www.uprinting.com/guide-to-3d-printing.html">UPrinting Guides</a>
-                    </div>
-                </span>
             </div>
             </div>
             
@@ -68,12 +61,15 @@
             </p>
             <hr class="mb-2">
             <ol class="ml-8 md:ml-20 list-decimal">
-                <li>Everything takes at least twice as longs you expect</li>
+                <li>Everything takes at least twice as long you expect</li>
+                <li>Depth-first search the first prototype, optimize later</li>
                 <li>Take pride in your creations</li>
                 <li>Don't have pet ideas</li>
+                <li>You can SSH using VScode instead of developing using the terminal</li>
+                <li>Use the all the resources you have</li>
+                <li>Good chances someone's made it before and its on a CAD library</li>
                 <li>Brainstorm for longer than you want</li>
                 <li>Gain perspective on your problem</li>
-                <li>Depth first search the first prototype, optimize later</li>
                 <li>Think of crazy ideas - some might have a useful realistic element</li>
                 <li>Abstract the concept of an idea during the brainstorming</li>
                 <li>Spend a lot of time in CAD before manufacturing final parts</li>

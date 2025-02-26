@@ -5,15 +5,14 @@ export const cardSections = [
       snippet: "These are recent projects that I found particularly rewarding. Usually requires learning a new skill.",
       cards: [
           {
-            id: 12,
-            title: "FPV Glider",
+            id: 13,
+            title: "Contact",
             url: "",
-            tags: ["code", "team", "CAD"],
-            snippet: `Long range FPV glider on the ZOHD Drift airframe. Equipped with R9 slim+,
-            Speedybee F405 Mini, GPS, VTX and camera. Capable of one hour flight and 1 mile range w/ video.
-            Can fly missions and return to home using iNav.`,
-            image: "FPVGlider.png",
-            date: "July 2024"
+            tags: ["code", "electronics", "CAD", "team"],
+            snippet: `A children's bike helmet attachment that detects crashes and notifies parents.
+            Wrote firmware for IMU, localization, and event detection. Manufactured custom PCB. Made with the 2.009 Product Design Purple Team.`,
+            image: "contact.jpg",
+            date: "December 2024"
           },
           {
             id: 11,
@@ -29,23 +28,34 @@ export const cardSections = [
           },
           {
             id: 12,
-            title: "Motion Planning with LiDAR Car",
+            title: "FPV Glider",
             url: "",
             tags: ["code", "team", "CAD"],
-            snippet: `Implemented Monte Carlo Localization and A* path planning on robotic car in MIT Stata Basement.
-            Developed and tested in ROS and RViz before deploying to real platform. Final challenge of
-             mini city navigation and full speed line following. MIT 16.405 Robotic Science and Systems.`,
-            image: "RSS.png",
+            snippet: `Long range FPV glider on the ZOHD Drift airframe. Equipped with R9 slim+,
+            Speedybee F405 Mini, GPS, VTX and camera. Capable of one hour flight and 1 mile range w/ video.
+            Can fly missions and return to home using iNav.`,
+            image: "FPVGlider.png",
             date: "July 2024"
           },
 
         ],
       },
+
       {
           id: 2,
           title: "Past Projects",
-          snippet: "These projects range from a few days to a few months of work. Sorted somewhat chronologically.",
+          snippet: "These projects range from a few days to a few months of work. Sorted SOMEWHAT chronologically.",
           cards: [
+          {
+            id: 21,
+            title: "Teaching at the American University of Bahrain",
+            url: "",
+            tags: ["art"],
+            snippet: `Developed open-source cirriculum for Actuacted Xperiences at AUBH. Taught digital and physical fabrication. Led robotics labs. 
+            Check it out here:https://mit-gtl-bahrain-2025.github.io/`,   
+            image: "AUBH.png",
+            date: "July 2024"
+          },
           {
             id: 21,
             title: "Didgeridoo Stand",
@@ -54,6 +64,27 @@ export const cardSections = [
             snippet: `Stand for my homemade didgeridoo (also listed here). Made from an old lamp I found in an electronics waste bin.`,   
             image: "DidgeridooStand.png",
             date: "July 2024"
+          },
+          {
+            id: 21,
+            title: "Motion Planning with LiDAR Car",
+            url: "",
+            tags: ["code", "team", "CAD"],
+            snippet: `Implemented Monte Carlo Localization and A* path planning on robotic car in MIT Stata Basement.
+            Developed and tested in ROS and RViz before deploying to real platform. Final challenge of
+              mini city navigation and full speed line following. MIT 16.405 Robotic Science and Systems.`,
+            image: "RSS.png",
+            date: "July 2024",
+            importance: 2
+          },
+          {
+            id: 21,
+            title: "WaveForm",
+            url: "",
+            tags: ["art", "woodworking"],
+            snippet: `Interactive modular synthesizer controlled by hand motion, where manipulating on-screen objects adjusts synth parameters in latent space.`,   
+            image: "waveform.png",
+            date: "June 2024"
           },
           {
             id: 21,
@@ -208,15 +239,6 @@ export const cardSections = [
             importance: 2
           },
           {
-            id: 15,
-            title: "ULA Soil Rover",
-            url: "",
-            tags: ["team", "electronics", "CAD"],
-            snippet: `Parachute deployed rover-hub system to collect soil samples and return to the hub for
-            rudimentary analysis`,
-            image: "rover2021.png"
-          },
-          {
             id: 32,
             title: "Music Production",
             url: "",
@@ -242,6 +264,15 @@ export const cardSections = [
             image: "BrendtBall.png"
           },
           {
+            id: 24,
+            title: "Aerospace Plasma Group",
+            url: "",
+            tags: ["team", "CAD"],
+            snippet: `Built test stand for researching the effects of nanosecond pulsed plasma on combustion.
+            Applicable to jet afterburners`,
+            image: "APGsetup.jpg"
+          },
+          {
             id: 27,
             title: "Balcony Additions",
             url: "",
@@ -265,6 +296,15 @@ export const cardSections = [
             snippet: `Subteam of MIT Rocket Team. Worked on a test stand for LOX and ethanol engine. Machined custom fittings, ran leak 
             and pressure tests`,
             image: "coldflow.jpg"
+          },
+          {
+            id: 15,
+            title: "ULA Soil Rover",
+            url: "",
+            tags: ["team", "electronics", "CAD"],
+            snippet: `Parachute deployed rover-hub system to collect soil samples and return to the hub for
+            rudimentary analysis`,
+            image: "rover2021.png"
           },
           {
             id: 26,
@@ -299,15 +339,6 @@ export const cardSections = [
             tags: ["CAD", "art"],
             snippet: `One of the coolest applications of 3D printing. Made from photo of my grandparents wedding`,
             image: "Lithophane.jpg"
-          },
-          {
-            id: 24,
-            title: "Aerospace Plasma Group",
-            url: "",
-            tags: ["team", "CAD"],
-            snippet: `Built test stand for researching the effects of nanosecond pulsed plasma on combustion.
-            Applicable to jet afterburners`,
-            image: "APGsetup.jpg"
           },
           {
             id: 28,
