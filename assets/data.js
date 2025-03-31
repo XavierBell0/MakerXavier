@@ -10,7 +10,7 @@ export const cardSections = [
             url: "",
             tags: ["code", "electronics", "CAD", "team"],
             snippet: `A children's bike helmet attachment that detects crashes and notifies parents.
-            Wrote firmware for IMU, localization, and event detection. Manufactured custom PCB. Made with the 2.009 Product Design Purple Team.`,
+            Wrote firmware for IMU, localization, and event detection. Used Mahony filter and IMU data to characterize true/false positives. Manufactured custom PCB. Made with the 2.009 Product Design Purple Team.`,
             image: "contact.jpg",
             date: "December 2024"
           },
@@ -27,17 +27,14 @@ export const cardSections = [
             date: "July 2024"
           },
           {
-            id: 12,
-            title: "FPV Glider",
+            id: 15,
+            title: "Warehouse Localization",
             url: "",
-            tags: ["code", "team", "CAD"],
-            snippet: `Long range FPV glider on the ZOHD Drift airframe. Equipped with R9 slim+,
-            Speedybee F405 Mini, GPS, VTX and camera. Capable of one hour flight and 1 mile range w/ video.
-            Can fly missions and return to home using iNav.`,
-            image: "FPVGlider.png",
+            tags: ["code", "research", "electronics", "CAD"],
+            snippet: `Sourced, prototyped, and deployed a localization system in 10 days for a project involving carts moving in a 150,000sq. ft warehouse. Used 15 ESP32 + UWB time-of-flight beacons to localize 6 carts along known paths using least squares regression and moving average. Manufactured UWB PCBs by hand.`,
+            image: "UWB.png",
             date: "July 2024"
           },
-
         ],
       },
 
@@ -51,10 +48,11 @@ export const cardSections = [
             title: "Teaching at the American University of Bahrain",
             url: "",
             tags: ["art"],
-            snippet: `Developed open-source cirriculum for Actuacted Xperiences at AUBH. Taught digital and physical fabrication. Led robotics labs. 
-            Check it out here:https://mit-gtl-bahrain-2025.github.io/`,   
+            snippet: `Developed open-source digital and physical fabrication cirriculum for Actuacted Xperiences at AUBH. Taught 30 juniors and seniors. Personally led robotics labs introducing basic motor control and sensors through light following and wall following on custom robot. 
+            Check it out here: https://mit-gtl-bahrain-2025.github.io/`,   
             image: "AUBH.png",
-            date: "July 2024"
+            date: "July 2024",
+            importance: 2
           },
           {
             id: 21,
@@ -64,6 +62,45 @@ export const cardSections = [
             snippet: `Stand for my homemade didgeridoo (also listed here). Made from an old lamp I found in an electronics waste bin.`,   
             image: "DidgeridooStand.png",
             date: "July 2024"
+          },
+          {
+            id: 21,
+            title: "WaveForm",
+            url: "",
+            tags: ["art", "woodworking"],
+            snippet: `Interactive modular synthesizer controlled by hand motion, where manipulating on-screen objects adjusts synth parameters in latent space. Presented at MIT's new music building opening gala. `,   
+            image: "waveform.png",
+            date: "June 2024"
+          },
+          {
+            id: 21,
+            title: "Gilded Queen Necklace",
+            url: "",
+            tags: ["art"],
+            snippet: `Chess Queen gilded with 23K gold. Used vinyl cutter to make patterns. Gift for a graduating friend.`,   
+            image: "GoldQueen.png",
+            date: "May 2024"
+          },
+          {
+            id: 12,
+            title: "FPV Glider",
+            url: "",
+            tags: ["code", "team", "CAD"],
+            snippet: `Long range FPV glider on the ZOHD Drift airframe. Equipped with R9 slim+,
+            Speedybee F405 Mini, GPS, VTX and camera. Capable of one hour flight and 1 mile range w/ video.
+            Can fly missions and return to home using iNav.`,
+            image: "FPVGlider.png",
+            date: "July 2024",
+            importance: 2
+          },
+          {
+            id: 21,
+            title: "TV Stand",
+            url: "",
+            tags: ["art", "woodworking"],
+            snippet: `Needed a TV stand. The inner rods are actually a shower curtain with a dowel inside. Pretty fond of the asymmetry.`,   
+            image: "TVStand.png",
+            date: "June 2024"
           },
           {
             id: 21,
@@ -79,61 +116,12 @@ export const cardSections = [
           },
           {
             id: 21,
-            title: "WaveForm",
-            url: "",
-            tags: ["art", "woodworking"],
-            snippet: `Interactive modular synthesizer controlled by hand motion, where manipulating on-screen objects adjusts synth parameters in latent space.`,   
-            image: "waveform.png",
-            date: "June 2024"
-          },
-          {
-            id: 21,
-            title: "Didgeridoo",
+            title: "Didgeridoo Research",
             url: "",
             tags: ["art"],
-            snippet: `PVC pipe didgeridoo. Painstakingly painted with acrylics. Originally
-                    used for a lofi-hiphop song.`,   
+            snippet: `PVC pipe didgeridoo painted after research project investigating the effects of geometric changes (twists/diameter) on acoustics.`,   
             image: "Didgeridoo.png",
             date: "Feb 2024"
-          },
-          {
-            id: 21,
-            title: "Gilded Queen Necklace",
-            url: "",
-            tags: ["art"],
-            snippet: `Chess Queen gilded with 23K gold. Used vinyl cutter to make patterns. Gift for a graduating friend.`,   
-            image: "GoldQueen.png",
-            date: "May 2024"
-          },
-          {
-            id: 21,
-            title: "TV Stand",
-            url: "",
-            tags: ["art", "woodworking"],
-            snippet: `Needed a TV stand. Made a TV stand. Pretty fond of the asymmetry.`,   
-            image: "TVStand.png",
-            date: "June 2024"
-          },
-          {
-            id: 11,
-            title: "PCB for Efficient Autonomous Blimp",
-            url: "",
-            tags: ["code", "research", "electronics", "CAD"],
-            snippet: `Telemetry and motor control shield for flight computer raspberry pi.
-            Self taught Altium and manufactured by JLCPCB. Made during my research work in the MIT LEAN lab.
-            Shown is implementation on miniature robotic car equipped with motion capture reflectors.`,
-            image: "Shrimpy.jpg",
-            date: "May 2023",
-            importance: 2
-          },
-          {
-            id: 21,
-            title: "Handmade Flag",
-            url: "",
-            tags: ["art"],
-            snippet: `Puerto Rican flag on one side, Dominican on the other. Made for my friend who is both.`,   
-            image: "Flag.png",
-            date: "May 2023"
           },
           {
             id: 21,
@@ -146,14 +134,35 @@ export const cardSections = [
             date: "April 2023"
           },
           {
+            id: 21,
+            title: "Handmade Flag",
+            url: "",
+            tags: ["art"],
+            snippet: `Puerto Rican flag on one side, Dominican on the other. Made for my friend who is both.`,   
+            image: "Flag.png",
+            date: "May 2023"
+          },
+          {
             id: 12,
-            title: "Efficient Blimp V1",
+            title: "Decanter Tray",
+            url: "",
+            tags: ["art", "CAD"],
+            snippet: `Simple decanter tray milled from scrap piece of red oak and laser engraved.
+            Present for a graduating friend who had a passion for nice whiskeys.`,
+            image: "DecanterTray.jpg",
+            date: "May 2023"
+          },
+          {
+            id: 11,
+            title: "PCB for Efficient Autonomous Robots",
             url: "",
             tags: ["code", "research", "electronics", "CAD"],
-            snippet: `A low power autonomous blimp platform to test motion planning algorithms.
-            Attempts 1-1 actuation and computer power use. Check GITHUB`,
-            image: "BEANFront.jpg",
-            date: "Dec 2022"
+            snippet: `Telemetry and motor control shield for flight computer raspberry pi.
+            Self taught Altium and manufactured by JLCPCB. Made during my research work in the MIT LEAN lab.
+            Shown is implementation on miniature robotic car equipped with motion capture reflectors.`,
+            image: "Shrimpy.jpg",
+            date: "May 2023",
+            importance: 2
           },
           {
             id: 12,
@@ -169,13 +178,22 @@ export const cardSections = [
           },
           {
             id: 12,
-            title: "Decanter Tray",
+            title: "PongBot",
             url: "",
-            tags: ["art", "CAD"],
-            snippet: `Simple decanter tray milled from scrap piece of red oak and laser engraved.
-            Present for a graduating friend who had a passion for nice whiskeys.`,
-            image: "DecanterTray.jpg",
-            date: "May 2023"
+            tags: ["code", "electronics", "CAD", "team"],
+            snippet: `A robotic shooter for ping pong balls that could apply different amounts of spin and speed depending on input from app. Made for MakeMIT 2023.`,
+            image: "pongBot.png",
+            date: "Feb 2023",
+          },
+          {
+            id: 12,
+            title: "Efficient Blimp V1",
+            url: "",
+            tags: ["code", "research", "electronics", "CAD"],
+            snippet: `A low power autonomous blimp platform to test motion planning algorithms.
+            Attempts 1-1 actuation and computational power use. Check my GITHUB for extensive documentation.`,
+            image: "BEANFront.jpg",
+            date: "Dec 2022"
           },
           {
             id: 12,
@@ -239,13 +257,12 @@ export const cardSections = [
             importance: 2
           },
           {
-            id: 32,
-            title: "Music Production",
+            id: 28,
+            title: "Giant Die",
             url: "",
-            tags: ["code", "art"],
-            snippet: `Did various sorts of music production for 10 years. Used Logic Pro, Cakewalk, Fl Studio, and MAX to make
-            original songs and covers`,
-            image: "FlStudio.png"
+            tags: ["woodworking", "art"],
+            snippet: `Centerpiece for party hung from stairwell. Very light and easy to disassemble. Cool pic`,
+            image: "DieAbove.png"
           },
           {
             id: 23,
@@ -281,14 +298,6 @@ export const cardSections = [
             image: "Hammock.jpg"
           },
           {
-            id: 28,
-            title: "Giant Die",
-            url: "",
-            tags: ["woodworking", "art"],
-            snippet: `Centerpiece for party hung from stairwell. Very light and easy to disassemble. Cool pic`,
-            image: "DieAbove.png"
-          },
-          {
             id: 25,
             title: "Liquid Propulsion",
             url: "",
@@ -305,6 +314,15 @@ export const cardSections = [
             snippet: `Parachute deployed rover-hub system to collect soil samples and return to the hub for
             rudimentary analysis`,
             image: "rover2021.png"
+          },
+          {
+            id: 32,
+            title: "Music Production",
+            url: "",
+            tags: ["code", "art"],
+            snippet: `Did various sorts of music production for 10 years. Used Logic Pro, Cakewalk, Fl Studio, and MAX to make
+            original songs and covers`,
+            image: "FlStudio.png"
           },
           {
             id: 26,

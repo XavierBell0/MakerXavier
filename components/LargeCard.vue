@@ -1,6 +1,6 @@
 <template>
     <div :class="['card rounded-md shadow-lg', cardClass]">
-        <img class="block w-full max-h-72 object-cover object-center" :src="require(`@/assets/Media/.MainCards/${card.image || 'Amogus.jpg'}`)" alt="">
+        <img class="block w-full max-h-80 object-cover object-center" :src="require(`@/assets/Media/.MainCards/${card.image || 'Amogus.jpg'}`)" alt="">
         <div class="p-4">
             <span class="flex flex-auto justify-center flex-row">
                 <h3 class="font-medium text-base lg:text-lg">
